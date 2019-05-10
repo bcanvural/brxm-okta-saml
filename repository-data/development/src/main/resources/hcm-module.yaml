@@ -1,0 +1,7 @@
+group: 
+  name: brxm-saml
+  after: hippo-cms
+project: brxm-saml
+module: 
+  name: brxm-saml-repository-data-development
+  after: brxm-saml-repository-data-application

@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    brxmsaml:
+      uri: http://www.brxmsaml.com/brxmsaml/nt/1.0
+      cnd: namespaces/brxm-saml.cnd

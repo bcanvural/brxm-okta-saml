@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+  <projectNamespace>brxmsaml</projectNamespace>
+  <confirmParams>false</confirmParams>
+  <selectedProjectPackage>com.github.bcanvural</selectedProjectPackage>
+  <selectedBeansPackage>com.github.bcanvural.beans</selectedBeansPackage>
+  <selectedComponentsPackage>com.github.bcanvural.components</selectedComponentsPackage>
+  <selectedRestPackage>com.github.bcanvural.rest</selectedRestPackage>
+  <hstRoot>/hst:brxmsaml</hstRoot>
+  <webfileBundleName>site</webfileBundleName>
+  <setupDone>false</setupDone>
+  <useSamples>true</useSamples>
+  <extraTemplates>true</extraTemplates>
+</project>

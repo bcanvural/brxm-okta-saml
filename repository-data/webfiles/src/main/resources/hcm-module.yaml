@@ -1,0 +1,5 @@
+group: 
+  name: brxm-saml
+project: brxm-saml
+module:
+  name: brxm-saml-repository-data-webfiles
