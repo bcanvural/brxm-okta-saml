@@ -51,6 +51,8 @@
   <Loggers>
 
     <!-- CMS logging -->
+    <Logger name="org.springframework.security" level="debug"/>
+
     <Logger name="org.apache.jackrabbit.core" level="warn"/>
     <Logger name="org.apache.jackrabbit.extractor" level="warn"/>
     <Logger name="org.apache.jackrabbit" level="warn"/>

@@ -169,6 +169,13 @@
   <profiles>
 
     <profile>
+      <id>hotswap</id>
+      <properties>
+        <javaagent>-XXaltjvm=dcevm -javaagent:${basedir}/hotswap-agent-1.3.0.jar</javaagent>
+      </properties>
+    </profile>
+
+    <profile>
       <id>default</id>
       <activation>
         <activeByDefault>true</activeByDefault>
@@ -302,20 +309,20 @@
                   </properties>
                   <location>${project.basedir}/cms/target/cms.war</location>
                 </deployable>
-                <deployable>
-                  <location>${project.basedir}/site/webapp/target/site.war</location>
-                  <type>war</type>
-                  <properties>
-                    <context>/site</context>
-                  </properties>
-                </deployable>
-                <deployable>
-                  <location>${project.basedir}/essentials/target/essentials.war</location>
-                  <type>war</type>
-                  <properties>
-                    <context>/essentials</context>
-                  </properties>
-                </deployable>
+<!--                <deployable>-->
+<!--                  <location>${project.basedir}/site/webapp/target/site.war</location>-->
+<!--                  <type>war</type>-->
+<!--                  <properties>-->
+<!--                    <context>/site</context>-->
+<!--                  </properties>-->
+<!--                </deployable>-->
+<!--                <deployable>-->
+<!--                  <location>${project.basedir}/essentials/target/essentials.war</location>-->
+<!--                  <type>war</type>-->
+<!--                  <properties>-->
+<!--                    <context>/essentials</context>-->
+<!--                  </properties>-->
+<!--                </deployable>-->
               </deployables>
               <container>
                 <systemProperties>
